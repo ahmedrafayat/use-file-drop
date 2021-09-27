@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "allowJs": false,
+      "target": "ESNext",
+      "module": "ESNext",
+      "esModuleInterop": true,
+      "jsx": "react",
+      "jsxFactory": "React.createElement",
+      "moduleResolution": "node",
+      "declaration": true,
+      "strict": true,
+      "removeComments": true
+    }
+  }
+  

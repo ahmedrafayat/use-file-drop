@@ -1,0 +1,47 @@
+{
+  "name": "use-file-drop",
+  "homepage": "https://github.com/ahmedrafayat/use-file-drop",
+  "bugs": {
+    "url": "https://github.com/ahmedrafayat/use-file-drop/issues",
+    "email": "ahmed.rafayat97@gmail.com"
+  },
+  "version": "0.1.0",
+  "description": "A simple, zero dependancy hook for implementing drag and drop",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "main": "dist/use-file-drop.js",
+  "module": "dist/use-file-drop.esm.js",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "prebuild": "npm run clean",
+    "build": "microbundle --define process.env.NODE_ENV=production --sourcemap false --output dist --tsconfig ./tsconfig.json",
+    "dev": "microbundle watch --define process.env.NODE_ENV=development --sourcemap true --output dist --tsconfig ./tsconfig.json"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "react",
+    "hook",
+    "file",
+    "drag",
+    "drop",
+    "use-file-drop",
+    "react-file-drop",
+    "react file drag and drop",
+    "react file upload",
+    "drag and drop"
+  ],
+  "author": "rafayat",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.23",
+    "microbundle": "^0.13.3",
+    "react": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}

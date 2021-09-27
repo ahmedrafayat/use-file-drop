@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# damn mac
+.DS_Store
+
+# damn output of 'npm pack'
+*.tgz
+
+# damn eslint cache
+.eslintcache
+
+# damn logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# next.js build output
+.next
+
+# damn idea settings
+.idea
+.vscode
+.history
+
+dist
