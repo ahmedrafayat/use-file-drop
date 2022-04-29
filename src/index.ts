@@ -1,4 +1,4 @@
-export { useFileDrop } from './useFileDrop';
+export { useFileDrop } from "./useFileDrop";
 
 export type DropFunction = (files: FileList) => void;
 
