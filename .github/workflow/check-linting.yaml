@@ -1,0 +1,14 @@
+name: Check Linting
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+    - name: Install modules
+      run: npm ci
+    - name: Run eslint
+      run: npm run lint:check
