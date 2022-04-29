@@ -40,3 +40,19 @@ const onDrop = useCallback((files) => {
     setFileName(files[0].name);
 }, []);
 ```
+
+## Build Steps
+
+Prerequisites:
+
+Node 16 or nvm
+
+Steps:
+
+```
+nvm install
+npm install
+npm run build
+```
+
+The build is located in /dist directory
