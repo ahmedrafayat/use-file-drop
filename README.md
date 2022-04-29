@@ -6,7 +6,9 @@ A simple, zero dependancy hook for implementing drag and drop in react.
 
 ## Installation
 
-`npm install use-file-drop`
+```
+npm install use-file-drop
+```
 
 ## Example
 
@@ -40,3 +42,19 @@ const onDrop = useCallback((files) => {
     setFileName(files[0].name);
 }, []);
 ```
+
+## Build Steps
+
+Prerequisites:
+
+Node 16 or nvm
+
+Steps:
+
+```
+nvm install
+npm install
+npm run build
+```
+
+The build is located in /dist directory
